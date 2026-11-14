@@ -12,18 +12,13 @@ LayoutResY: 720
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Default,Lato Bold,48,&H00FFFFFF,&H000000FF,&H000E3644,&H9E000000,0,0,0,0,100,100,1,0,1,2.5,0.5,2,100,100,35,1
-Style: Signs,Ariel,67,&H002F352C,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,0,0,0,1
 Style: OP - Romaji,SF Cartoonist Hand Bold,45,&H00495868,&H000000FF,&H008193B0,&H00000000,0,0,0,0,100,100,1,0,1,2.5,0,8,10,10,20,1
 Style: OP - English,SF Cartoonist Hand Bold,45,&H00495868,&H000000FF,&H008193B0,&H00000000,0,0,0,0,100,100,1,0,1,2.5,0,2,10,10,20,1
 Style: OP - Romaji - Last,SF Cartoonist Hand Bold,45,&H00F0FFFF,&H000000FF,&H008193B0,&H00000000,0,0,0,0,100,100,1,0,1,2.5,0,8,10,10,20,1
 Style: OP - English - Last,SF Cartoonist Hand Bold,45,&H00F0FFFF,&H000000FF,&H008193B0,&H00000000,0,0,0,0,100,100,1,0,1,2.5,0,2,10,10,20,1
-Style: OPvED - Romaji,SF Cartoonist Hand Bold,45,&H00C8F2F7,&H000000FF,&H00456496,&H00000000,0,0,0,0,100,100,1,0,1,2.5,0,9,20,20,20,1
-Style: OPvED - English,SF Cartoonist Hand Bold,45,&H00C8F2F7,&H000000FF,&H00456496,&H00000000,0,0,0,0,100,100,1,0,1,2.5,0,9,20,20,20,1
-Style: Default - Alt,Lato Bold,48,&H00FFFFFF,&H000000FF,&H001F385D,&H9E000000,0,0,0,0,100,100,1,0,1,2.5,0.5,2,100,100,35,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:10.00,Signs,,0,0,0,,{\fs50\an7\fe162\b\fad(400,400)\bord2\blur5\shad\4c&H000000&\4a&HFF&\fnSweetest Cat Ever}\N{\pos(20,-2)}{\c&HFFFF00&}{\4c&H8485E4&}SomeSub ekip arkadaşı arıyor!\N{\pos(60,63)}{\c&HFFFFFF&}Çevirmen:{\c&HFFFF00&} LaikTsk\N{\pos(60,111)}{\c&HFFFFFF&}Encode:{\c&HFFFF00&} Velnoxy\N{\pos(60,111)}{\c&HFFFFFF&}Redaktör:{\c&HFFFF00&} Velnoxy\N{\c&HFFFFFF&}Discord:{\c&HFFFF00&} discord.gg/somesub
 Dialogue: 0,0:00:24.39,0:00:25.17,Default,,0,0,0,,Baba?
 Dialogue: 0,0:00:30.67,0:00:32.25,Default,,0,0,0,,Baba?
 Dialogue: 0,0:00:37.95,0:00:38.99,Default,,0,0,0,,Baba.
@@ -36,17 +31,15 @@ Dialogue: 0,0:01:12.83,0:01:14.61,Default,,0,0,0,,Baba?
 Dialogue: 0,0:01:15.94,0:01:17.72,Default,,0,0,0,,Ne oldu?
 Dialogue: 0,0:01:17.72,0:01:22.80,Default,,0,0,0,,Anaokulu öğretmenim babama söylememi söyledi.
 Dialogue: 0,0:01:27.53,0:01:30.30,Default,,0,0,0,,Babana bir şey mi söyledin?
-Dialogue: 0,0:01:31.94,0:01:35.75,Default,,0,0,0,,"Her şey için teşekkürler. Seni seviyorum baba!" dedim.{d'awwwww}
+Dialogue: 0,0:01:31.94,0:01:35.75,Default,,0,0,0,,"Her şey için teşekkürler. Seni seviyorum baba!" dedim.
 Dialogue: 0,0:01:38.19,0:01:40.47,Default,,0,0,0,,Babanın yüzü nasıl görünüyor?
-Dialogue: 0,0:01:46.35,0:01:48.46,Default,,0,0,0,,Gülümsüyor! {same for sign}
-Dialogue: 0,0:00:25.17,0:00:28.04,Signs,,0,0,0,,{=0}{\fscy100\fscx100\an2\blur0.5\fnAGaramondPro-Regular\pos(640.08,453.39)\\c&H1D2633&\1a&H25&\t(0,2300,1.2,\fsp4)\t(2300,2870,0.8,\fsp4.5)}Baba?
-Dialogue: 0,0:01:46.35,0:01:49.99,Signs,,0,0,0,,{=1}{\fscy100\fscx100\fs41\blur0.4\fnCTMercuriusStd-Medium\fsp3\pos(800,360)\c&HFBFCFE&}Gülümsüyor!
-Dialogue: 0,0:00:00.77,0:00:04.78,OP - English,,0,0,0,,{\blur0.9\fade(120,200)}Bunca sıradan günde
-Dialogue: 0,0:00:04.78,0:00:08.74,OP - English,,0,0,0,,{\blur0.9\fade(120,200)}Hepsini birlikte geçirdik
-Dialogue: 0,0:00:08.74,0:00:12.47,OP - English,,0,0,0,,{\blur0.9\fade(120,200)}Yanımdaki sana her baktığımda
-Dialogue: 0,0:00:12.47,0:00:13.99,OP - Romaji,,0,0,0,,{\blur0.9\fade(120,0)}futo mite boku wa
-Dialogue: 0,0:00:12.47,0:00:13.99,OP - English,,0,0,0,,{\blur0.9\fade(120,0)}Fark ediyorum
-Dialogue: 0,0:00:14.19,0:00:15.14,OP - Romaji - Last,,0,0,0,,{\blur0.9\fade(0,200)}futo mite boku wa
-Dialogue: 0,0:00:14.19,0:00:15.14,OP - English - Last,,0,0,0,,{\blur0.9\fade(0,200)}Fark ediyorum
-Dialogue: 0,0:00:15.14,0:00:18.68,OP - Romaji - Last,,0,0,0,,{\blur0.9\fade(120,2300)}shiawase dato omou
-Dialogue: 0,0:00:15.14,0:00:18.68,OP - English - Last,,0,0,0,,{\blur0.9\fade(120,2300)}Mutlu olduğumu
+Dialogue: 0,0:01:46.35,0:01:48.46,Default,,0,0,0,,Gülümsüyor! 
+Dialogue: 0,0:00:00.77,0:00:04.78,OP - English,,0,0,0,,{\blur0.9\fad(120,200)}Bunca sıradan günde
+Dialogue: 0,0:00:04.78,0:00:08.74,OP - English,,0,0,0,,{\blur0.9\fad(120,200)}Hepsini birlikte geçirdik
+Dialogue: 0,0:00:08.74,0:00:12.47,OP - English,,0,0,0,,{\blur0.9\fad(120,200)}Yanımdaki sana her baktığımda
+Dialogue: 0,0:00:12.47,0:00:13.99,OP - Romaji,,0,0,0,,{\blur0.9\fad(120,0)}futo mite boku wa
+Dialogue: 0,0:00:12.47,0:00:13.99,OP - English,,0,0,0,,{\blur0.9\fad(120,0)}Fark ediyorum
+Dialogue: 0,0:00:14.19,0:00:15.14,OP - Romaji - Last,,0,0,0,,{\blur0.9\fad(0,200)}futo mite boku wa
+Dialogue: 0,0:00:14.19,0:00:15.14,OP - English - Last,,0,0,0,,{\blur0.9\fad(0,200)}Fark ediyorum
+Dialogue: 0,0:00:15.14,0:00:18.68,OP - Romaji - Last,,0,0,0,,{\blur0.9\fad(120,2300)}shiawase dato omou
+Dialogue: 0,0:00:15.14,0:00:18.68,OP - English - Last,,0,0,0,,{\blur0.9\fad(120,2300)}Mutlu olduğumu
