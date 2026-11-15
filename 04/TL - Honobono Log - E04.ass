@@ -12,18 +12,14 @@ LayoutResY: 720
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Default,Lato Bold,48,&H00FFFFFF,&H000000FF,&H000E3644,&H9E000000,0,0,0,0,100,100,1,0,1,2.5,0.5,2,100,100,35,1
-Style: Signs,Ariel,67,&H002F352C,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,0,0,0,1
 Style: OP - Romaji,SF Cartoonist Hand Bold,45,&H00495868,&H000000FF,&H008193B0,&H00000000,0,0,0,0,100,100,1,0,1,2.5,0,8,10,10,20,1
 Style: OP - English,SF Cartoonist Hand Bold,45,&H00495868,&H000000FF,&H008193B0,&H00000000,0,0,0,0,100,100,1,0,1,2.5,0,2,10,10,20,1
 Style: OP - Romaji - Last,SF Cartoonist Hand Bold,45,&H00F0FFFF,&H000000FF,&H008193B0,&H00000000,0,0,0,0,100,100,1,0,1,2.5,0,8,10,10,20,1
 Style: OP - English - Last,SF Cartoonist Hand Bold,45,&H00F0FFFF,&H000000FF,&H008193B0,&H00000000,0,0,0,0,100,100,1,0,1,2.5,0,2,10,10,20,1
-Style: OPvED - Romaji,SF Cartoonist Hand Bold,45,&H00C8F2F7,&H000000FF,&H00456496,&H00000000,0,0,0,0,100,100,1,0,1,2.5,0,9,20,20,20,1
-Style: OPvED - English,SF Cartoonist Hand Bold,45,&H00C8F2F7,&H000000FF,&H00456496,&H00000000,0,0,0,0,100,100,1,0,1,2.5,0,9,20,20,20,1
-Style: Default - Alt,Lato Bold,48,&H00FFFFFF,&H000000FF,&H001F385D,&H9E000000,0,0,0,0,100,100,1,0,1,2.5,0.5,2,100,100,35,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:10.00,Default,,0,0,0,,{\fs37\an7\fe162\b\fad(400,400)\bord2\blur5\shad\4c&H000000&\4a&HFF&\fnSweetest Cat Ever}\N{\pos(20,-2)}{\c&HFFFF00&}{\4c&H8485E4&}SomeSub ekip arkadaşı arıyor!\N{\pos(60,63)}{\c&HFFFFFF&}Çevirmen:{\c&HFFFF00&} LaikTsk\N{\pos(60,111)}{\c&HFFFFFF&}Encode:{\c&HFFFF00&} Velnoxy\N{\pos(60,111)}{\c&HFFFFFF&}Redaktör:{\c&HFFFF00&} Mitos\N{\c&HFFFFFF&}Discord:{\c&HFFFF00&} discord.gg/somesub
+Dialogue: 0,0:00:00.00,0:00:10.00,Default,,0,0,0,,{\fs37\an7\fe162\b1\fad(400,400)\bord2\blur5\shad0\4c&H000000&\4a&HFF&\fnSweetest Cat Ever}\N{\pos(20,-2)\c&HFFFF00&\4c&H8485E4&}SomeSub ekip arkadaşı arıyor!\N{\c&HFFFFFF&}Çevirmen:{\c&HFFFF00&} LaikTsk\N{\c&HFFFFFF&}Encode:{\c&HFFFF00&} Velnoxy\N{\c&HFFFFFF&}Redaktör:{\c&HFFFF00&} Mitos\N{\c&HFFFFFF&}Discord:{\c&HFFFF00&} discord.gg/somesub
 Dialogue: 0,0:00:03.02,0:00:04.80,Default,,0,0,0,,Ben geldim.
 Dialogue: 0,0:00:05.45,0:00:08.18,Default,,0,0,0,,Hey, neden ışıklar kapalı?
 Dialogue: 0,0:00:08.70,0:00:10.05,Default,,0,0,0,,Eita?
@@ -40,23 +36,21 @@ Dialogue: 0,0:01:04.13,0:01:05.73,Default,,0,0,0,,Aç mısın?
 Dialogue: 0,0:01:05.73,0:01:08.16,Default,,0,0,0,,En sevdiğin Sanuki udon var!
 Dialogue: 0,0:01:08.16,0:01:10.47,Default,,0,0,0,,İzlemek istediğin filmi de alıp geldim.
 Dialogue: 0,0:01:10.47,0:01:13.35,Default,,0,0,0,,Banyo çoktan hazır, \Nkıyafetlerin de çıkarıldı!
-Dialogue: 0,0:01:13.35,0:01:16.82,Default,,0,0,0,,Bugün çok hazırlıklısın.{he wants the succ}
+Dialogue: 0,0:01:13.35,0:01:16.82,Default,,0,0,0,,Bugün çok hazırlıklısın.
 Dialogue: 0,0:01:18.31,0:01:21.36,Default,,0,0,0,,Şey, bugün işten erken çıktım ve...
 Dialogue: 0,0:01:21.71,0:01:22.63,Default,,0,0,0,,Bir tuhaflık var.
 Dialogue: 0,0:01:29.43,0:01:32.67,Default,,0,0,0,,Yarın izinlisin, değil mi?
 Dialogue: 0,0:01:33.17,0:01:34.01,Default,,0,0,0,,Evet.
 Dialogue: 0,0:01:38.40,0:01:40.38,Default,,0,0,0,,Yarın benimle randevuya çıkar mısın?
 Dialogue: 0,0:01:40.38,0:01:41.53,Default,,0,0,0,,Lütfen!
-Dialogue: 0,0:01:46.95,0:01:49.06,Default,,0,0,0,,Sanırım...{same for sign}
-Dialogue: 0,0:00:39.62,0:00:43.36,Signs,,0,0,0,,{=4}{\fscy88.6\fscx88.6\an2\blur0.5\fnAGaramondPro-Regular\pos(640.13,442.65)\c&H183744&\1a&H00&\t(0,700,1.5,\fsp0.7)\t(700,3300,\fsp4.7)\t(3300,3740,1.7,\fsp5.1)}Lütfen
-Dialogue: 0,0:01:46.95,0:01:49.99,Signs,,0,0,0,,{=6}{\fscy91.07\fscx91.07\fs41\blur0.4\fnCTMercuriusStd-Medium\fsp3\pos(751.15,361.13)\c&HFFFFFA&}Sanırım...
-Dialogue: 0,0:00:18.29,0:00:22.30,OP - Romaji,,0,0,0,,{\blur0.9\fade(120,200)}kazaranai mainichi no naka de
-Dialogue: 0,0:00:18.29,0:00:22.30,OP - English,,0,0,0,,{\blur0.9\fade(120,200)}Bunca sıradan günde
-Dialogue: 0,0:00:22.30,0:00:26.26,OP - Romaji,,0,0,0,,{\blur0.9\fade(120,200)}ironna koto wo tomo ni shite kita
-Dialogue: 0,0:00:22.30,0:00:26.26,OP - English,,0,0,0,,{\blur0.9\fade(120,200)}Hepsini birlikte geçirdik
-Dialogue: 0,0:00:26.26,0:00:29.99,OP - Romaji,,0,0,0,,{\blur0.9\fade(120,200)}tonari de sugosu kimi no koto wo
-Dialogue: 0,0:00:26.26,0:00:29.99,OP - English,,0,0,0,,{\blur0.9\fade(120,200)}Yanımdaki sana her baktığımda
-Dialogue: 0,0:00:29.99,0:00:32.08,OP - Romaji,,0,0,0,,{\blur0.9\fade(120,0)}futo mite boku wa
-Dialogue: 0,0:00:29.99,0:00:32.08,OP - English,,0,0,0,,{\blur0.9\fade(120,0)}Fark ediyorum
-Dialogue: 0,0:00:32.59,0:00:36.77,OP - Romaji - Last,,0,0,0,,{\blur0.9\fade(120,1940)}shiawase dato omou
-Dialogue: 0,0:00:32.59,0:00:36.77,OP - English - Last,,0,0,0,,{\blur0.9\fade(120,1940)}Mutlu olduğumu
+Dialogue: 0,0:01:46.95,0:01:49.06,Default,,0,0,0,,Sanırım...
+Dialogue: 0,0:00:18.29,0:00:22.30,OP - Romaji,,0,0,0,,{\blur0.9\fad(120,200)}kazaranai mainichi no naka de
+Dialogue: 0,0:00:18.29,0:00:22.30,OP - English,,0,0,0,,{\blur0.9\fad(120,200)}Bunca sıradan günde
+Dialogue: 0,0:00:22.30,0:00:26.26,OP - Romaji,,0,0,0,,{\blur0.9\fad(120,200)}ironna koto wo tomo ni shite kita
+Dialogue: 0,0:00:22.30,0:00:26.26,OP - English,,0,0,0,,{\blur0.9\fad(120,200)}Hepsini birlikte geçirdik
+Dialogue: 0,0:00:26.26,0:00:29.99,OP - Romaji,,0,0,0,,{\blur0.9\fad(120,200)}tonari de sugosu kimi no koto wo
+Dialogue: 0,0:00:26.26,0:00:29.99,OP - English,,0,0,0,,{\blur0.9\fad(120,200)}Yanımdaki sana her baktığımda
+Dialogue: 0,0:00:29.99,0:00:32.08,OP - Romaji,,0,0,0,,{\blur0.9\fad(120,0)}futo mite boku wa
+Dialogue: 0,0:00:29.99,0:00:32.08,OP - English,,0,0,0,,{\blur0.9\fad(120,0)}Fark ediyorum
+Dialogue: 0,0:00:32.59,0:00:36.77,OP - Romaji - Last,,0,0,0,,{\blur0.9\fad(120,1940)}shiawase dato omou
+Dialogue: 0,0:00:32.59,0:00:36.77,OP - English - Last,,0,0,0,,{\blur0.9\fad(120,1940)}Mutlu olduğumu
