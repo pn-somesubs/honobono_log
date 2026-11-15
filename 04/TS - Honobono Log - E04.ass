@@ -1,0 +1,19 @@
+[Script Info]
+Title: pn-SomeSubs - Honobono Log
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1280
+PlayResY: 720
+YCbCr Matrix: TV.709
+LayoutResX: 1280
+LayoutResY: 720
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Signs,Ariel,67,&H002F352C,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:39.62,0:00:43.36,Signs,,0,0,0,,{\fscy88.6\fscx88.6\an2\blur0.5\fnAGaramondPro-Regular\pos(640.13,442.65)\c&H183744&\1a&H00&\t(0,700,1.5,\fsp0.7)\t(700,3300,\fsp4.7)\t(3300,3740,1.7,\fsp5.1)}Lütfen
+Dialogue: 0,0:01:46.95,0:01:49.99,Signs,,0,0,0,,{\fscy91.07\fscx91.07\fs41\blur0.4\fnCTMercuriusStd-Medium\fsp3\pos(751.15,361.13)\c&HFFFFFA&}Sanırım...
